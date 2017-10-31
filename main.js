@@ -40,9 +40,7 @@ var battle = function(weapon1, weapon2){
   }
 }
 
-
 battle(playerChoice, compChoice);
-
 
 g++
 }
