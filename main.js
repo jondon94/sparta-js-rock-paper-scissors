@@ -1,6 +1,9 @@
 alert("Would you like to play a game?")
 alert("The Rules are: Rock beats Scissors, Paper Beats Rock and Scissors Beats Paper. Best of 5 rounds win")
 
+var playerScore = 0
+var compScore = 0
+
 var g = 1;
 while (g < 6) {
 
@@ -19,21 +22,21 @@ var battle = function(weapon1, weapon2){
     return alert("Its a tie")
   }else if (weapon1 === "Rock"){
     if (weapon2 === "Scissors"){
-      return alert("Player 1 Wins!")
+      return alert("Player 1 Wins!") playerScore = ++
   }else{
-      return alert("Computer Wins")
+      return alert("Computer Wins") 
     }
 
   }else if (weapon1 === "Paper"){
     if (weapon2 === "Rock"){
-      return alert("Player 1 Wins")
+      return alert("Player 1 Wins") playerScore = ++
     }else{
       return alert("Computer Wins")
     }
 
   }else if (weapon1 === "Scissors"){
     if (weapon2 === "Paper"){
-      return alert("Player 1 Wins")
+      return alert("Player 1 Wins") playerScore = ++
     }else{
       return alert("Computer Wins")
     }
