@@ -41,6 +41,8 @@ var battle = function(weapon1, weapon2){
 }
 
 battle(playerChoice, compChoice);
-
+alert("The score is")
 g++
 }
+
+alert("The winner is:")
